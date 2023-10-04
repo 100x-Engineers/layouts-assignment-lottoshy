@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100x</title>
+    <link href="../../dist/output.css" rel="stylesheet" />
+</head>
+<body class="bg-neutral-1000 w-auto h-auto">
+    <main>
+    <section class="px-[15px] w-screen h-screen flex flex-col ">
+        <div class="w-full flex flex-row justify-between py-3 items-center">
+            <a href="../home-feed/index.html">
+                <img class="w-6 h-6" src="../../public/images/close-icon.svg" alt="close-icon">
+            </a>
+            <button class=" px-6 py-2 bg-blue-default rounded-full text-neutral-50 text-base font-bold font-inter flex items-center justify-center text-center hover:bg-blue-hover disabled:bg-blue-default disabled:opacity-50">
+                Post
+          </button>
+        </div>
+       <div class="flex flex-row py-2 gap-3">
+        <img class="w-9 h-9" src="../../public/images/user-profile.png" alt="user-profile">
+        <textarea name="tweet" id="" cols="30" rows="10" placeholder="What's happening?" class="w-full bg-transparent outline-none resize-none font-inter text-base font-normal text-neutral-50 placeholder:text-neutral-600 leading-normal"></textarea>
+    </div>
+    </section>
+</main>
+<footer class="w-full fixed bottom-0 px-4 py-3 border-t border-neutral-800">
+    <span class="text-neutral-500 text-14px font-inter font-normal leading-normal">0/280</span>
+</footer>
+</body>
+</html>
